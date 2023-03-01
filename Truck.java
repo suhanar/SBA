@@ -8,11 +8,11 @@ public class Truck extends Car {
       double getSalePrice() {
     	  if(weight>2000) {
     		  //System.out.println("10% discount");
-    		  return super.regularPrice * 10/100;
+    		  return super.regularPrice * 0.85;
     		  
     	  }
     	  else {
-    		  return super.regularPrice * 20/100;
+    		  return super.regularPrice * 0.75;
     	  }
       }
 }
